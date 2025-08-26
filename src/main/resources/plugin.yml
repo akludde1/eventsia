@@ -1,0 +1,14 @@
+name: Eventsiav2
+version: 2.0.0
+main: com.akludde.eventsiav2.Eventsiav2
+api-version: '1.21'
+author: akludde
+commands:
+  event:
+    description: Event system main command
+    usage: /event
+    aliases: [ev]
+permissions:
+  event.startrun:
+    description: Allows staff to start an event
+    default: op
